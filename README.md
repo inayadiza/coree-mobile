@@ -1,7 +1,7 @@
 # Coree Elegante
 
 ## Tugas 7
-## PApa itu Stateless Widget dan Stateful Widget? Jelaskan perbedaannya.
+## Apa itu Stateless Widget dan Stateful Widget? Jelaskan perbedaannya.
 
 - **Stateless Widget** : Stateless Widget adalah jenis widget yang tidak memiliki state yang dapat berubah saat aplikasi berjalan. Widget ini statis dan hanya menampilkan data yang sudah ada tanpa perubahan selama runtime. Contoh dari stateless widget adalah `Text` atau `Icon`. Stateless widget cocok untuk elemen-elemen UI yang tidak memerlukan pembaruan.
 
