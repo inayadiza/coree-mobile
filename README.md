@@ -34,8 +34,8 @@ Variabel yang terdampak oleh `setState()` adalah variabel yang disimpan dalam ke
 
 1. Buat proyek Flutter baru dengan nama produk saya yaitu menggunakan perintah `flutter create coree_elegante`, lalu navigasikan ke direktori proyek tersebut dengan `cd coree_elegante`.
 2. Jalankan aplikasi Flutter menggunakan `flutter run`, atau jika ingin membukanya di Google Chrome, gunakan perintah `flutter run -d chrome`.
-3. Atur skema warna di `main.dart` dengan menggunakan `ColorScheme.fromSwatch`, lalu pilih kombinasi warna biru-hijau, misalnya `Colors.teal` sebagai warna utama dan `Colors.tealAccent` sebagai warna sekunder.
-4. Pindahkan widget `MyHomePage` dari `main.dart` ke file baru bernama `menu.dart` di dalam folder `lib`, lalu tambahkan `import 'package:delicate/menu.dart';` di `main.dart`.
+3. Atur skema warna di `main.dart` dengan menggunakan `ColorScheme.fromSwatch`
+4. Pindahkan widget `MyHomePage` dari `main.dart` ke file baru bernama `menu.dart` di dalam folder `lib`, lalu tambahkan `import 'package:coree_elegante/menu.dart';` di `main.dart`.
 5. Deklarasikan variabel `npm`, `name`, dan `className` dalam `MyHomePage` di `menu.dart` untuk menampilkan informasi berupa NPM, nama, dan kelas.
 6. Buat widget `InfoCard` di `menu.dart` untuk menampilkan informasi di atas dalam bentuk kartu sederhana.
 7. Tambahkan daftar `ItemHomepage` di `menu.dart`, berisi tiga tombol: "Lihat Daftar Produk", "Tambah Produk", dan "Logout".
