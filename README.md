@@ -101,7 +101,7 @@ Row(
     Text('Kembali'),
   ],
 )
-``
+```
 
 **Perbedaan**
 - `Column` untuk layout vertikal, `Row` untuk layout horizontal
