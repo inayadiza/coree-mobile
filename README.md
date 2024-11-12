@@ -1,4 +1,5 @@
 # Coree Elegante
+## By : Waode Inaya Diza Ma'inah
 
 <details>
 <Summary><b>Tugas 7</b></Summary>
