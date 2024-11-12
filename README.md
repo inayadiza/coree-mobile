@@ -48,7 +48,6 @@ Variabel yang terdampak oleh `setState()` adalah variabel yang disimpan dalam ke
 <details>
 <Summary><b>Tugas 8</b></Summary>
 
-## Tugas 8
 ## 1. Apa kegunaan const di Flutter? Jelaskan apa keuntungan ketika menggunakan const pada kode Flutter. Kapan sebaiknya kita menggunakan const, dan kapan sebaiknya tidak digunakan?
 
 **Keuntungan Menggunakan `const`:**
