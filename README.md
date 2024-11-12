@@ -26,7 +26,7 @@
 
 Variabel yang terdampak oleh `setState()` adalah variabel yang disimpan dalam kelas stateful widget dan harus diperbarui ketika UI membutuhkan pembaruan. Contoh variabel yang sering terdampak adalah variabel yang menyimpan nilai input pengguna, status tombol, atau data yang diambil dari API.
 
-## Apa Perbedaan antara `const` dan `final` ?
+## 4. Apa Perbedaan antara `const` dan `final` ?
 
 - **const**: Menandakan bahwa nilai dari variabel adalah konstan dan sudah diketahui saat compile time. Semua nilai yang diinisialisasi dengan `const` bersifat immutable dan tidak akan pernah berubah.
   
@@ -65,7 +65,7 @@ Variabel yang terdampak oleh `setState()` adalah variabel yang disimpan dalam ke
 - Komputasi kompleks
 - Konteks yang berbeda (objek hanya berguna dalam konteks tertentu)
  
- ## 2. Jelaskan dan bandingkan penggunaan Column dan Row pada Flutter. Berikan contoh implementasi dari masing-masing layout widget ini!
+## 2. Jelaskan dan bandingkan penggunaan Column dan Row pada Flutter. Berikan contoh implementasi dari masing-masing layout widget ini!
 
 **`Column`**
 - Menyusun anak-anak widget secara vertikal, dari atas ke bawah
@@ -109,7 +109,7 @@ Row(
 - `Column` untuk elemen bertumpuk, `Row` untuk elemen berdampingan
 - Dapat digabungkan untuk membuat layout kompleks (grid, kartu)
 
- ## 3. Jelaskan dan bandingkan penggunaan Column dan Row pada Flutter. Berikan contoh implementasi dari masing-masing layout widget ini!
+## 3. Jelaskan dan bandingkan penggunaan Column dan Row pada Flutter. Berikan contoh implementasi dari masing-masing layout widget ini!
 
 1. **TextField**
    - Digunakan untuk menerima input teks dari pengguna.
