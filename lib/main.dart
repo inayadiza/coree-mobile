@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:coree_elegante/menu.dart';
+import 'package:coree_elegante/screens/menu.dart';
 
 // Membuat MaterialColor kustom untuk warna hitam
 MaterialColor createMaterialBlack = MaterialColor(
@@ -50,8 +50,6 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.dark(
           primary: Colors.black,
           secondary: Colors.black,
-          surface: Colors.black,
-          background: Colors.white,
         ),
         scaffoldBackgroundColor: Colors.white,
         useMaterial3: true,
