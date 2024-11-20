@@ -10,18 +10,18 @@ class ClothingEntryPage extends StatefulWidget {
 }
 
 class _ClothingEntryPageState extends State<ClothingEntryPage> {
-  Future<List<MoodEntry>> fetchMood(CookieRequest request) async {
+  Future<List<ClothingEntry>> fetchMood(CookieRequest request) async {
     // TODO: Ganti URL dan jangan lupa tambahkan trailing slash (/) di akhir URL!
     final response = await request.get('http://127.0.0.1:8000/json/');
     
     // Melakukan decode response menjadi bentuk json
     var data = response;
     
-    // Melakukan konversi data json menjadi object MoodEntry
-    List<MoodEntry> listMood = [];
+    // Melakukan konversi data json menjadi object ClothingEntry
+    List<ClothingEntry> listMood = [];
     for (var d in data) {
       if (d != null) {
-        listMood.add(MoodEntry.fromJson(d));
+        listMood.add(ClothingEntry.fromJson(d));
       }
     }
     return listMood;
