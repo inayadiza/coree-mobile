@@ -30,8 +30,9 @@ class ItemCard extends StatelessWidget {
     }
   }
 
-  @override
-  Widget build(BuildContext context) {
+@override
+Widget build(BuildContext context) {
+    final request = context.watch<CookieRequest>();
     return Material(
       // Menentukan warna latar belakang dari tema aplikasi.
       color: _getButtonColor(item.name),
